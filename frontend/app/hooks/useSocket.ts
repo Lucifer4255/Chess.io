@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 export const useSocket = () => {
     const [socket, setSocket] = useState<WebSocket | null>(null);
     useEffect(() => {
-        const ws = new WebSocket(process.env.URL || "ws://localhost:8000");
+        const ws = new WebSocket(process.env.WS_URL || "ws://localhost:8000");
         ws.onopen = () => {
             console.log("Connected to server");
             setSocket(ws);
