@@ -56,33 +56,25 @@ cd ../backend && npm install
 cd frontend
 npm run dev
 ```
-Runs at **`http://localhost:3000`**  
+Runs at **`http://localhost:5173`**  
 
 #### **Backend**
 ```sh
 cd backend
-npm start
+npm run build
+npm run start
 ```
-Runs at **`http://localhost:5000`**  
-
----
-
-## **🐳 Deploy with Docker**  
-Run the entire app using Docker Compose:  
-```sh
-docker-compose up -d
-```
+Runs at **`http://localhost:8000`**  
 
 ---
 
 ## **🔗 Live Demo**  
-🌍 **Play Now:** [your-vercel-app-url](https://chess-io-alpha.vercel.app/)  
+🌍 **Play Now:** [chess.iol](https://chess-io-alpha.vercel.app/)  
 
 ---
 
 ## **📅 Future Plans**  
-- ✅ **Improve chat system** using **Redis**  
-- ✅ **Store game history & users** in **MongoDB**  
+- ✅ **Store game history & users** in **MongoDB** and **Redis** 
 - ✅ **Authentication system** for players  
 - ✅ **AI Bot for Single-player Mode**  
 
