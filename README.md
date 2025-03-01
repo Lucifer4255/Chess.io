@@ -39,7 +39,7 @@ This is a **real-time chess application** where users can **play online chess an
 
 ### **1️⃣ Clone the Repository**  
 ```sh
-git clone https://github.com/your-username/chess-app.git
+git clone https://github.com/Lucifer4255/Chess.io.git
 cd chess-app
 ```
 
