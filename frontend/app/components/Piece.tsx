@@ -14,7 +14,7 @@ export const Piece = ({ square, isDragging = false }: {
       ref={setNodeRef}
       {...listeners}
       {...attributes}
-      className={`w-full h-full max-w-[90%] max-h-[90%] object-contain ${
+      className={`w-full h-full max-w-[80%] max-h-[80%] object-contain ${
         isDragging || dragging ? "opacity-50 scale-110 transition-transform duration-150" : ""
       }`}
       src={`/${square.color === "b" ? square.type : square.type.toUpperCase()}.png`}
